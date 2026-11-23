@@ -1,0 +1,21 @@
+{
+  "name": "medifund-mfms-root",
+  "version": "1.0.0",
+  "description": "Medical Funding Management System (MFMS) - Complete MERN Web Application",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "medifund",
+    "mfms",
+    "mern",
+    "medical-funding",
+    "healthcare",
+    "crowdfunding"
+  ],
+  "author": "MediFund Development Team",
+  "license": "ISC"
+}
